@@ -1,21 +1,26 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import CarouselBox from '../Componets/CarouselBox';
 import { Container, Col, Row, Card, ListGroup } from 'react-bootstrap';
-import { BrowserRouter as Route, } from "react-router-dom";
-import Services from '../Pages/Services';
 import ServicesBlock from '../Componets/ServicesBlock';
-import Footer from '../Componets/Footer';
 import NewsBlockHome from '../Componets/NewsBlockHome';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea} from '@mui/material';
 import Typography from '@mui/material/Typography';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
-<Route path="/services" component={Services} />
+import { Helmet } from "react-helmet";
+
+
 
 const Home = (props) => {
   return (
 
-    <><CarouselBox /><>
+  <><Helmet>
+      <meta charSet="utf-8" />
+      <title>{props.titles}</title>
+      <meta name="description" content="Nested component"></meta>
+    </Helmet>
+
+    <CarouselBox /><>
       <Container>
         <Row className='mt-5'>
           <Col md={3}>

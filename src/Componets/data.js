@@ -77,387 +77,387 @@ let data = {
 
             product: [
                 {
-                "id": 1,
-                "name": "Информационный стенд",
-                "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1411129045.gif",
-                "text": "Основа: белый ПВХ 5мм 6 плоских карманов(акрил прозрачный 2мм) формата А4. Надпись: аппликация, плоттерная резка плёнки Oracal. Размер: 750x750",
-                "price": "1500 руб."
-            },
-            {
-                "id": 2,
-                "name": "Информационный стенд",
-                "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1411129082.gif",
-                "text": "Основа: белый ПВХ 5мм 3 плоских кармана(акрил прозрачный 2мм) формата А4 ;3 объёмных кармана А4( акрил прозрачный 2мм,глубина кармана 28мм) Надпись: аппликация, плоттерная резка плёнки Oracal Размер: 750*750",
-                "price": "1600 руб."
-            },
-            {
-                "id": 3,
-                "name": "Информационный стенд",
-                "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1411129119.gif",
-                "text": "Основа: белый ПВХ 5мм 6 объёмных карманов(акрил прозрачный 2мм, глубина кармана 28мм) формата А4 Надпись: аппликация, плоттерная резка плёнки Oracal Размер: 750*750",
-                "price": "1400 руб."
-            }
-                      ]       
-        
-         },
-         {
+                    "id": 1,
+                    "name": "Информационный стенд",
+                    "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1411129045.gif",
+                    "text": "Основа: белый ПВХ 5мм 6 плоских карманов(акрил прозрачный 2мм) формата А4. Надпись: аппликация, плоттерная резка плёнки Oracal. Размер: 750x750",
+                    "price": "1500 руб."
+                },
+                {
+                    "id": 2,
+                    "name": "Информационный стенд",
+                    "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1411129082.gif",
+                    "text": "Основа: белый ПВХ 5мм 3 плоских кармана(акрил прозрачный 2мм) формата А4 ;3 объёмных кармана А4( акрил прозрачный 2мм,глубина кармана 28мм) Надпись: аппликация, плоттерная резка плёнки Oracal Размер: 750*750",
+                    "price": "1600 руб."
+                },
+                {
+                    "id": 3,
+                    "name": "Информационный стенд",
+                    "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1411129119.gif",
+                    "text": "Основа: белый ПВХ 5мм 6 объёмных карманов(акрил прозрачный 2мм, глубина кармана 28мм) формата А4 Надпись: аппликация, плоттерная резка плёнки Oracal Размер: 750*750",
+                    "price": "1400 руб."
+                }
+            ]
+
+        },
+        {
             "id": 2,
             "title": "Свадебная атрибутика",
 
             product: [
                 {
-                "id": 1,
-                "name": "Свадебные бокалы с гравировкой",
-                "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1425655828.png",
-                "text": "Гравировка на стекле",
-                "price": "700руб."
-            },
-            {
-                "id": 2,
-                "name": "Гравировка свадебных замочков (замочки счастья)",
-                "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1425656099.png",
-                "text": "Замочки счастья, гравировка на металле",
-                "price": "500 руб."
-            },
-            {
-                "id": 3,
-                "name": "Cвадебные приглашения",
-                "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1425656141.png",
-                "text": "Резка бумаги, дизайнерская бумага.",
-                "price": "200 руб."
-            }
-                      ]
-        
-           
-            },
-        
+                    "id": 1,
+                    "name": "Свадебные бокалы с гравировкой",
+                    "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1425655828.png",
+                    "text": "Гравировка на стекле",
+                    "price": "700руб."
+                },
+                {
+                    "id": 2,
+                    "name": "Гравировка свадебных замочков (замочки счастья)",
+                    "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1425656099.png",
+                    "text": "Замочки счастья, гравировка на металле",
+                    "price": "500 руб."
+                },
+                {
+                    "id": 3,
+                    "name": "Cвадебные приглашения",
+                    "imgUrl": "http://asan-pro.ru/bas_pro/admin/foto/1425656141.png",
+                    "text": "Резка бумаги, дизайнерская бумага.",
+                    "price": "200 руб."
+                }
+            ]
+
+
+        },
+
     ],
     images: [
         {
             "id": 1,
             "title": "Бумага",
             "name": 'Лазерная резка открыток и приглашений',
-        
-           foto: [ 
-               
-        {
-          original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага2.png',
-          thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага1.png',
+
+            foto: [
+
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага2.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага1.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага3.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага2.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага4.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага3.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага5.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага4.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага6.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага5.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага7.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага6.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага8.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага7.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага9.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага8.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага10.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага9.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага11.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага10.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага12.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага11.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага13.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага12.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага14.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага13.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага15.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага14.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага16.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага15.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага17.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага16.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага18.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага17.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага19.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага18.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага20.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага19.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага21.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага22.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага21.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага23.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага22.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага24.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага23.png',
+                }
+            ]
+
         },
         {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага3.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага2.png',
+            "id": 2,
+            "title": "Стекло",
+            "name": "Лазерная гравировка стекла",
+
+            foto: [
+                {
+                    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло1.png',
+                    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло1.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло2.png',
+                    thumbnail: 'http://asan-pro.ru/galery/%20Стекло//Миниатюры/стекло2.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло3.png',
+                    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло3.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло4.png',
+                    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло4.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло5.png',
+                    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло5.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло6.png',
+                    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло6.png',
+                }
+            ]
         },
         {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага4.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага3.png',
+            "id": 3,
+            "title": "Металл",
+            "name": "Лазерная гравировка изделий из металла",
+
+            foto: [
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл1.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл1%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл2.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл2%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл3.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл3%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл4.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл4%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл5.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл5%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл6.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл6%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл7.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл7%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл8.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл8%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл9.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл9%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл10.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл10%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл11.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл11%20.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл12.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/12.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Металл/Фото/металл13.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл13.png',
+                }
+            ]
         },
         {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага5.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага4.png',
+            "id": 4,
+            "title": "Дерево",
+            "name": "Лазерная резка и гравировка дерева",
+
+            foto: [
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево1.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево1.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево2.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево2.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево3.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево3.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево4.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево4.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево5.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево5.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево6.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево6.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево7.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево7.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево8.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево8.png',
+                }
+            ]
         },
         {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага6.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага5.png',
+            "id": 5,
+            "title": "Пластик",
+            "name": "Изделия из пластика",
+
+            foto: [
+                {
+                    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик1.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик1.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик2.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик2.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик3.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик3.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик4.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик4.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик5.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик5.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик6.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик6.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик7.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик7.png',
+                }
+            ]
         },
         {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага7.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага6.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага8.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага7.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага9.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага8.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага10.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага9.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага11.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага10.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага12.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага11.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага13.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага12.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага14.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага13.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага15.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага14.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага16.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага15.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага17.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага16.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага18.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага17.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага19.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага18.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага20.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага19.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага21.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага20.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага22.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага21.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага23.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага22.png',
-        },
-        {
-            original: 'http://asan-pro.ru/galery/Бумага/Фото/Бумага24.png',
-            thumbnail: 'http://asan-pro.ru/galery/Бумага/Миниатюры/Бумага23.png',
+            "id": 6,
+            "title": "Разное",
+            "name": "Изделия из разных материалов",
+
+            foto: [
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/разное1.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное1.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/разное2.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное2.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/разное3.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное3.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/разное4.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное4.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/разное5.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное5.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/6.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/6.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/7.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/7.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/8.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/8.png',
+                },
+                {
+                    original: 'http://asan-pro.ru/galery/Разное/Фото/9.png',
+                    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/9.png',
+                }
+            ]
         }
-           ]
-        
-},
-{
-    "id": 2,
-    "title": "Стекло",
-    "name": "Лазерная гравировка стекла",
 
-   foto: [ 
-{
-  original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло1.png',
-  thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло1.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло2.png',
-    thumbnail: 'http://asan-pro.ru/galery/%20Стекло//Миниатюры/стекло2.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло3.png',
-    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло3.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло4.png',
-    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло4.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло5.png',
-    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло5.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/%20Стекло/Фото/стекло6.png',
-    thumbnail: 'http://asan-pro.ru/galery/%20Стекло/Миниатюры/стекло6.png',
-}
-   ]
-},
-{
-    "id": 3,
-    "title": "Металл",
-    "name": "Лазерная гравировка изделий из металла",
-
-   foto: [ 
-{
-  original: 'http://asan-pro.ru/galery/Металл/Фото/металл1.png',
-  thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл1%20.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл2.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл2%20.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл3.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл3%20.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл4.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл4%20.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл5.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл5%20.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл6.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл6%20.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл7.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл7%20.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл8.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл8%20.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл9.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл9%20.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл10.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл10%20.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл11.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл11%20.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл12.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/12.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Металл/Фото/металл13.png',
-    thumbnail: 'http://asan-pro.ru/galery/Металл/Миниатюры/металл13.png',
-  }
-   ]
-},
-{
-    "id": 4,
-    "title": "Дерево",
-    "name": "Лазерная резка и гравировка дерева",
-
-   foto: [ 
-{
-  original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево1.png',
-  thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево1.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево2.png',
-  thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево2.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево3.png',
-    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево3.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево4.png',
-  thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево4.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево5.png',
-  thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево5.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево6.png',
-    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево6.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево7.png',
-    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево7.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Дерево/Фото/дерево8.png',
-    thumbnail: 'http://asan-pro.ru/galery/Дерево/Миниатюры/дерево8.png',
-  }
-   ]
-},
-{
-    "id": 5,
-    "title": "Пластик",
-    "name": "Изделия из пластика",
-
-   foto: [ 
-{
-  original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик1.png',
-  thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик1.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик2.png',
-  thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик2.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик3.png',
-  thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик3.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик4.png',
-    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик4.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик5.png',
-    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик5.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик6.png',
-    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик6.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Пластик/Фото/пластик7.png',
-    thumbnail: 'http://asan-pro.ru/galery/Пластик/Миниатюры/пластик7.png',
-  }
-   ]
-},
-{
-    "id": 6,
-    "title": "Разное",
-    "name": "Изделия из разных материалов",
-
-   foto: [ 
-{
-  original: 'http://asan-pro.ru/galery/Разное/Фото/разное1.png',
-  thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное1.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Разное/Фото/разное2.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное2.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Разное/Фото/разное3.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное3.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Разное/Фото/разное4.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное4.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Разное/Фото/разное5.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/разное5.png',
-},
-{
-    original: 'http://asan-pro.ru/galery/Разное/Фото/6.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/6.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Разное/Фото/7.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/7.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Разное/Фото/8.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/8.png',
-  },
-  {
-    original: 'http://asan-pro.ru/galery/Разное/Фото/9.png',
-    thumbnail: 'http://asan-pro.ru/galery/Разное/Миниатюры/9.png',
-  }
-   ]
-}
-
-      ],
-      partners: [
-          {
-              "id": 1,
-              "img": "http://asan-pro.ru/galery/dns.png",
-              "name": "DNS",
-              "text": "Сегодня компания DNS– один из лидеров цифрового ритейла России!",
-              "url": " "
-          },
-          {
+    ],
+    partners: [
+        {
+            "id": 1,
+            "img": "http://asan-pro.ru/galery/dns.png",
+            "name": "DNS",
+            "text": "Сегодня компания DNS– один из лидеров цифрового ритейла России!",
+            "url": " "
+        },
+        {
             "id": 2,
             "img": "http://asan-pro.ru/images/maidg.png",
             "name": "Мэйдж",
@@ -478,7 +478,60 @@ let data = {
             "text": "Экономьте ваше время, усилия и средства, используя современное технологичное оборудование с командой cut4you.",
             "url": " "
         }
-      ]
+    ],
+    titles: [
+        {
+            "id": 1,
+            "Главная": "Главная"
+        },
+        {
+            "id": 2,
+            "Продукция": "Продукция"
+            
+        },
+        {
+            "id": 3,
+            "Услуги": " Услуги",
+            Dop: [
+                {
+                    "id": 1,
+                    "ФрезернаяРезка": "Фрезерная резка"
+                },
+                {
+                    "id": 2,
+                    "ЛазернаяРезка": "Лазерная резка"
+                },
+                {
+                    "id": 3,
+                    "ЛазернаяГравировка": "Лазерная гравировка"
+                },
+                {
+                    "id": 4,
+                    "ПлотернаяРезка": "Плотерная резка"
+                },
+                {
+                    "id": 5,
+                    "РемонтСтанковСЧПУ": "Ремонт станков с ЧПУ"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "Галерея": "Галерея"
+        },
+        {
+            "id": 5,
+            "Контакты": "Контакты"
+        },
+        {
+            "id": 6,
+            "Статьи": "Статьи"
+        },
+        {
+            "id": 7,
+            "О_нас": "О_нас"
+        }
+    ]
 }
 
 export default data;

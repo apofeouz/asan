@@ -3,12 +3,18 @@ import { Figure, Container, Col, Row } from 'react-bootstrap';
 import ArticlesBlock from '../Componets/ArticlesBlock';
 import { Card, ListGroup } from 'react-bootstrap';
 import NewsBlock from '../Componets/NewsBlock';
+import { Helmet } from "react-helmet";
 
 
 const Articles = (props) => {
  
     return (
-      <><Container>
+      <><Helmet>
+      <meta charSet="utf-8" />
+      <title>{props.titles}</title>
+      <meta name="description" content="Nested component"></meta>
+    </Helmet>
+    <Container>
         <Row className="mt-5">
 
           <Col md="3" className="mt-2">
