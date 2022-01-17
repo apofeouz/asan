@@ -5,6 +5,7 @@ import ArticlesBlock from '../Componets/ArticlesBlock';
 import { Card, ListGroup } from 'react-bootstrap';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBContainer } from 'mdb-react-ui-kit';
 import '../App.css'
+import Views from '../Componets/Views';
 import data from '../Componets/data';
 
 const NewPage = ({ match, location }) => {
@@ -48,6 +49,7 @@ const NewPage = ({ match, location }) => {
                 <p className="text-left">
                   <strong>Опубликованно: </strong>{data.news[title - 1].data}
                 </p>
+                {/* <p><Views /></p> */}
               </MDBContainer>
             </MDBCardBody>
           </MDBCard>
