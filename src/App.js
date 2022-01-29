@@ -5,7 +5,7 @@ import Header from "./Componets/Header";
 import Footer from './Componets/Footer';
 
 
-const App = (props) =>{
+const App = () =>{
   return (
     <div>
     <Header />

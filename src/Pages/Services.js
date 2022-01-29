@@ -19,7 +19,7 @@ import { Helmet } from "react-helmet";
                         <Card>
                             <Card.Header className="text-center">Наши услуги</Card.Header>
                             <ListGroup variant="flush" striped bordered hover>
-                                <ServicesBlock />
+                                <ServicesBlock  />
                             </ListGroup>
                         </Card>
                         <Card className="mt-5">
@@ -41,7 +41,7 @@ import { Helmet } from "react-helmet";
                     </Col>
                     <Col md={9}>
                         <Card>
-                            <Card.Header className="text-center"><h2>Фрезерная резка</h2></Card.Header>
+                            <Card.Header className="text-center"><h2>{props.titles}</h2></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                     <Typography variant="body1" color="text.secondary">

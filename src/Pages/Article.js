@@ -1,18 +1,28 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import ArticlesBlock from '../Componets/ArticlesBlock';
 import { Card, ListGroup } from 'react-bootstrap';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBContainer } from 'mdb-react-ui-kit';
 import '../App.css'
-import Views from '../Componets/Views';
+import Like from '../Componets/Metrika';
 import data from '../Componets/data';
 
+
+  
+
 const NewPage = ({ match, location }) => {
+
+// state = {array : []}
+
+// const newArray = this.state.array
+// newArray.push('test')
+// this.setState({array : newArray})
 
   const {
     params: { title }
   } = match;
+
 
   return (
     <Container>
@@ -49,7 +59,7 @@ const NewPage = ({ match, location }) => {
                 <p className="text-left">
                   <strong>Опубликованно: </strong>{data.news[title - 1].data}
                 </p>
-                {/* <p><Views /></p> */}
+  
               </MDBContainer>
             </MDBCardBody>
           </MDBCard>

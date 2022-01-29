@@ -1,15 +1,14 @@
 import { MDBCard, MDBCardBody, MDBCol, MDBRow } from 'mdb-react-ui-kit';
 import React from "react";
-import {Col, Container,  Row} from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions, Alert } from '@mui/material';
 import { Helmet } from "react-helmet";
-import data from '../Componets/data';
 
-const About = (props) =>  {
+const About = (props) => {
 
   return (
     <><Helmet>
@@ -22,14 +21,9 @@ const About = (props) =>  {
             <Typography gutterBottom variant="h5" component="div">
               Наши друзья и партнёры
             </Typography>
-
-
-            {data.partners.map((id) => (
+            {props.partners.map((id) => (
               <><hr className="my-3" /><Card>
-
-
                 <><CardActionArea>
-
                   <CardMedia
                     component="img"
                     height="120"
@@ -41,11 +35,7 @@ const About = (props) =>  {
                     </Typography>
                   </CardContent>
                 </CardActionArea><CardActions>
-                    {/* <Button size="small" color="primary">
-              Перейти{id.url}
-            </Button> */}
                   </CardActions></>
-
               </Card></>
             ))}
           </Col>
@@ -105,9 +95,7 @@ const About = (props) =>  {
         </Row>
       </Container></>
 
-);
+  );
 }
+export default About;
 
-  
-  export default About;
-    

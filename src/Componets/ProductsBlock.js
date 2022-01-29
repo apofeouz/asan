@@ -6,8 +6,8 @@ import data from './data';
 const ProductsBlock = (props) => {
     return (
         <List component="nav" aria-label="mailbox folders">
-            {data.products.map((product, id) => (
-                <ListItem button divider component={Link} to={`/products/${id + 1}`}>{product.title}
+            {data.products.map((products, id, product,url) => (
+                <ListItem button divider component={Link} to={`/product/${products.url}`}>{products.title}
                     
 
                 </ListItem>

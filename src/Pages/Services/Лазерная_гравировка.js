@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import  {Container, Col, Row, Card, ListGroup, Table} from 'react-bootstrap';
-import { BrowserRouter as Route,} from "react-router-dom";
 import ServicesBlock from '../../Componets/ServicesBlock';
 import Typography from '@mui/material/Typography';
+import { Helmet } from "react-helmet";
 
-class Services extends Component {
-    render() {
+
+const Services_Лазерная_гравировка = (props) => {
+
         return (
-            <><Container>
+            <><Helmet>
+            <meta charSet="utf-8" />
+            <title>{props.titles}</title>
+            <meta name="description" content="Nested component"></meta>
+          </Helmet>
+           <Container>
                 <Row className="mt-5">
 
                     <Col md="3" className="mt-2">
@@ -33,7 +39,7 @@ class Services extends Component {
                     </Col>
                     <Col md={9}>
                         <Card>
-                            <Card.Header className="text-center"><h2>Лазерная гравировка</h2></Card.Header>
+                            <Card.Header className="text-center"><h2>{props.titles}</h2></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
                                     <Typography variant="body1" color="text.secondary">
@@ -84,6 +90,5 @@ class Services extends Component {
             </Container></>
         );
     }
-}
 
-export default Services;
+export default Services_Лазерная_гравировка;

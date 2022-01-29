@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 
 
 
-const Gallery = ({ match, location }) => {
+const Gallery = ({ match, location, props }) => {
 
     const {
         params: { title }
@@ -19,7 +19,7 @@ const Gallery = ({ match, location }) => {
 
       <><Helmet>
         <meta charSet="utf-8" />
-        <title>{data.titles[3].Галерея}</title>
+        <title>{data.titles[3].Галерея}/{data.images[title - 1].title}</title>
         <meta name="description" content="Nested component"></meta>
       </Helmet><Container>
           <Row className="mt-5">

@@ -4,11 +4,16 @@ import { BrowserRouter as Route,} from "react-router-dom";
 import ServicesBlock from '../../Componets/ServicesBlock';
 import Typography from '@mui/material/Typography';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBContainer } from 'mdb-react-ui-kit';
-
-class Services extends Component {
-    render() {
+import { Helmet } from "react-helmet";
+const Services_Ремонт_станков_с_ЧПУ = (props)=> {
+   
         return (
-            <><Container>
+            <><Helmet>
+            <meta charSet="utf-8" />
+            <title>{props.titles}</title>
+            <meta name="description" content="Nested component"></meta>
+          </Helmet>
+          <Container>
                 <Row className="mt-5">
 
                     <Col md="3" className="mt-2">
@@ -18,7 +23,7 @@ class Services extends Component {
                                 <ServicesBlock />
                             </ListGroup>
                         </Card>
-                        <Card className="mt-5">
+                        {/* <Card className="mt-5">
                             <Card.Header className="text-center" ><h4>После ремонта</h4></Card.Header>
                             <Card.Body>
                                 <blockquote className="blockquote mb-0">
@@ -32,13 +37,13 @@ class Services extends Component {
 
                                 </blockquote>
                             </Card.Body>
-                        </Card>
+                        </Card> */}
                     </Col>
                     <Col md={9}>
                     <MDBCard>
             <MDBCardBody>
               <h3 className="font-weight-bold mb-3 p-0 text-center">
-                <strong>Ремонт и диагностика станков с ЧПУ</strong>
+                <strong>{props.titles}</strong>
               </h3>
               <hr className="my-3" />
               <MDBRow>
@@ -49,10 +54,11 @@ class Services extends Component {
               </h4>
                   <img
                     className="img-responsive img-right"
-                    src="https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-Resize-GwuFUJ9av9nEb.jpg"
-                    alt=""
+                    src="/img/servise/ad86070872e21eb873f95dace002b224.jpeg"
+                    height="290px" width="220px" 
+                    title="До ремонта"
+                    alt={props.titles}
                   />
-                 
                   <p>
                   Лазерно-гравировальная мастерская АсАн предоставляет комплекс услуг по диагностике неисправностей фрезерно-гравировальных станков с ЧПУ и лазерно-гравировальных машин(СО2), твердотельных лазеров(кафедра лазерных машин). Подробную информацию об услуге вы можете уточнить у менеджеров нашей компании по тел.: 8-863-529-96-50 или оставить нам сообщение через форму обратной связи.
                   </p>
@@ -60,6 +66,13 @@ class Services extends Component {
 <p>Диагностика станков с ЧПУ, основанных на лазерных технологиях, включает диагностику специального высоковольтного блока питания, драйвера приводов, поиск поврежденной электронной платы. В нашей стране найти плату для замены очень непросто. </p>
 <p>Ремонт и настройка лазерных станков с ЧПУ часто связаны с заменой линз, зеркал, лазерной трубки, ремонтом и подключением высоковольтного блока питания, заменой высоковольтного провода. Все перечисленные этапы представляют собой очень тонкую работу, ошибиться в которой может означать безвозвратную потерю высокотехнологичного устройства. </p>
 <p>Ошибки в ремонте и настройке также могут привести к пожару. Вызов мастера для негарантийного ремонта после такого события и восстановление сгоревшего оборудования обойдутся фирме во многие десятки тысяч рублей. </p>
+<img
+                    className="img-responsive img-left"
+                    src="/img/servise/03a353f6a2b942434042419fbe956e12.jpeg"
+                    height="290px" width="220px" 
+                    title="После ремонта"
+                    alt={props.titles}
+                  />
 <p>Ремонт ЧПУ завершается юстировкой оптики. Эта процедура требует от мастера навыков, которые приобретаются лишь длительным опытом. </p>
 <p>Работа по ремонту лазерного станка требует глубокого знания лазерной технологии, всех многочисленных ноу-хау, которые применяют при изготовлении подобного оборудования зарубежные производители. Существует мнение, что с этим справятся любые квалифицированные специалисты по электротехнике; достаточно лишь дать им ознакомиться с прилагаемой к станку документацией. </p>
 <p>Однако в настоящее время производители перестали снабжать оборудование объемистым пакетом технических документов. Мотивируется это тем, что современные станки такого рода настолько совершенны, что при грамотном обслуживании поломаться просто не могут. В сложных же случаях в Европе и США всегда придет на помощь компания, выпустившая станок.</p>
@@ -74,6 +87,5 @@ class Services extends Component {
             </Container></>
         );
     }
-}
 
-export default Services;
+export default Services_Ремонт_станков_с_ЧПУ;
