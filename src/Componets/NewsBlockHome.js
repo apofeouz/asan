@@ -6,18 +6,17 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import { Container, Col, Row } from 'react-bootstrap';
 import { BrowserRouter as Nav, Link } from "react-router-dom";
-import data from './data';
 
-const GetLocalPosts = (props) => {
+const NewsBlockHome = (props) => {
   const divStyle = {
-    marginLeft: '20px',
+    marginLeft: '15px',
   };
   return (
     <Container>
       <Row>
         {
-          data.news.filter(id => id.id < 4).map(id => (
-            <Card style={divStyle} className='mt-5' sx={{ maxWidth: 400 }}>
+          props.news.filter(id => id.id < 4).map(id => (
+            <Card style={divStyle} className='mt-5' sx={{ maxWidth: 388 }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -40,15 +39,11 @@ const GetLocalPosts = (props) => {
                 </Button>
               </CardActions>
             </Card>
-
-
           ))}
       </Row>
     </Container>
   );
-
 }
-
-export default GetLocalPosts;
+export default NewsBlockHome;
 
 

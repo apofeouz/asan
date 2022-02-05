@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import logo from './logo192.png';
+import logo from '../favicon.ico';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from '../Pages/Home';
@@ -31,14 +31,14 @@ export default class Header extends Component {
                     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
 
                         <Container>
-                            <Navbar.Brand href="/">
-                                <img
+                            <Navbar.Brand  href="/">
+                                <img 
                                     src={logo}
                                     height="30"
                                     width="30"
                                     className="d-inline-block align-top"
                                     alt="Logo"
-                                /> Лазерно-Гравировальная мастерская АсАн
+                                />Лазерно-Гравировальная мастерская
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
@@ -55,7 +55,7 @@ export default class Header extends Component {
                         </Container>
                     </Navbar>
                     <Switch>
-                        <Route exact path="/" render= { () =><Home titles = {data.titles[0].Главная}/> } />
+                        <Route exact path="/" render= { () =><Home titles = {data.titles[0].Главная} news = {data.news}/> } />
                         {/* <Route exact path="/products/" render= { () =><Products titles = {data.titles[1].Продукция}/> } /> */}
                         <Route exact path="/product/Информационные_стенды" component={Product} />
                         <Route exact path="/product/Свадебная_атрибутика" component={Product_1} />
@@ -68,7 +68,7 @@ export default class Header extends Component {
                         <Route exact path="/contacts" render= { () =><Contacts titles = {data.titles[4].Контакты}/> } />
                         <Route exact path="/articles" render= { () =><Articles titles = {data.titles[5].Статьи}/> } />
                         <Route exact path="/article/:title" component={Article} />
-                        <Route exact path="/about" render= { () =><About titles = {data.titles[6].О_нас} partners ={data.partners}/> } />
+                        <Route exact path="/about" render= { () =><About titles = {data.titles[6].О_нас} partners ={data.partners} maps = {data.maps}/> } />
                     </Switch>
                 </Router>
             </>

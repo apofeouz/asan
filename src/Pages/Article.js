@@ -5,7 +5,7 @@ import ArticlesBlock from '../Componets/ArticlesBlock';
 import { Card, ListGroup } from 'react-bootstrap';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBContainer } from 'mdb-react-ui-kit';
 import '../App.css'
-import Like from '../Componets/Metrika';
+import Like from '../Componets/Like';
 import data from '../Componets/data';
 
 
@@ -49,7 +49,6 @@ const NewPage = ({ match, location }) => {
                     src={data.news[title - 1].imgUrl}
                     alt={data.news[title - 1].title}
                   />
-                 
                   <p>
                     {data.news[title - 1].text}
                   </p>
@@ -58,8 +57,9 @@ const NewPage = ({ match, location }) => {
               <MDBContainer>
                 <p className="text-left">
                   <strong>Опубликованно: </strong>{data.news[title - 1].data}
+                  
                 </p>
-  
+  <Like/>
               </MDBContainer>
             </MDBCardBody>
           </MDBCard>

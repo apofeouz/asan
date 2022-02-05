@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions, Alert } from '@mui/material';
+import Maps from '../Componets/Maps';
 import { Helmet } from "react-helmet";
 
 const About = (props) => {
@@ -79,11 +80,11 @@ const About = (props) => {
             <MDBCard>
 
               <><hr className="my-3" />
-                <MDBRow className='g-0'>
+                <MDBRow >
 
                   <MDBCol md='12'>
-                    <MDBCardBody>
-                      <div><iframe src="https://www.google.com/maps/d/u/0/embed?mid=znhqArSk7MMI.kAX6wHW6NeZU" width="930" height="450"></iframe></div>
+                    <MDBCardBody >
+                  <Maps maps = {props.maps}/>
                     </MDBCardBody>
 
                   </MDBCol>

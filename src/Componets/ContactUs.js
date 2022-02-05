@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { MDBInput } from 'mdb-react-ui-kit';
+import { Button } from 'react-bootstrap';
 
 const refreshPage = () => {
   window.alert('Ваше сообщение успешно отправленно')
@@ -26,7 +27,7 @@ const ContactUs = () => {
         <MDBInput label='Ваше имя' name="user_name" type='text' />
         <MDBInput label='Ваш Email' name="user_email" type='email' />
         <MDBInput label='Ваше сообщение' name="message" textarea rows={4} />
-        <input type="submit" onClick={refreshPage} value="Отправить" />
+        <Button variant="primary" type="submit" onClick={refreshPage} >Отправить</Button>
       </form>
   );
 };
