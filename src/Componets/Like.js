@@ -1,20 +1,59 @@
-import React, { useState } from 'react';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import state from './data';
+import React,{useState,useEffect} from 'react';
+import axios from "axios";
+import data from './data';
 
+function Like() {
+  const [isDisplay, setDisplay] = React.useState(false);
+  const displayAdd = () => setDisplay(!isDisplay);
 
+  const [allCards, setAllCards] = React.useState([]);
+  const [loading, setLoading] = React.useState(false);
 
-const Like = ()=> {
-  const [info, setInfo] = useState( {name: 'Иван', age: 25, show: true} );
- 
-  const handleClick = () => {
-     setInfo({...info, show: !info.show});
+  React.useEffect(() => {
+    setLoading(true);
+
+    const apiUrl =
+     {data};
+    axios.get(apiUrl).then((resp) => {
+      const allCards = resp.data;
+      setAllCards(allCards);
+      setLoading(false);
+    });
+  }, []);
+
+  const likeButtonHandler = (id) => {
+    setAllCards(
+      allCards.map((item) =>
+        item.id === id ? { ...item, liked: !item.likes } : item
+      )
+    );
   };
 
-  return <div>
-      <button onClick = {handleClick}>Click  </button>
+  return (
+    <div className="app">
+      <div>
+        {loading
+          ? "Loading..."
+          : allCards.map(({ id, likes}) => (
+              <div
+                key={id}
+                style={{
+                  border: "1px solid black",
+                  margin: "1rem",
+                  padding: "1rem",
+                }}
+              >
+               
+                <div>Liked: {likes.toString()}</div>
+               
+                <button onClick={() => likeButtonHandler(id)}>
+                  {likes ? "unlike me" : "like me"}
+                </button>
+              </div>
+            ))}
+      </div>
+    </div>
+  );
+}
 
-      <p>{info.show}</p>
-  </div>
-};
-export default Like;
+ export default Like;

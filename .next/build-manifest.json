@@ -1,0 +1,170 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/A5YSd_vFXDn2DQsZ9jkXP/_buildManifest.js",
+    "static/A5YSd_vFXDn2DQsZ9jkXP/_ssgManifest.js",
+    "static/A5YSd_vFXDn2DQsZ9jkXP/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/About": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/26-00d1045a4a3a63b5.js",
+      "static/chunks/117-9846a3532062bb05.js",
+      "static/chunks/568-d39fba0d4b3cc648.js",
+      "static/chunks/pages/About-0cff50125cffcc50.js"
+    ],
+    "/Article": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/26-00d1045a4a3a63b5.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Article-661ab24b36177f30.js"
+    ],
+    "/Articles": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/117-9846a3532062bb05.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Articles-993ec7b0a158c673.js"
+    ],
+    "/Contacts": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/26-00d1045a4a3a63b5.js",
+      "static/chunks/568-d39fba0d4b3cc648.js",
+      "static/chunks/778-8052cc52c406e101.js",
+      "static/chunks/pages/Contacts-9f8b9c91604c08c2.js"
+    ],
+    "/Gallery": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/26-00d1045a4a3a63b5.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/css/e293322999ce8754.css",
+      "static/chunks/pages/Gallery-b4b1d838a0ee811c.js"
+    ],
+    "/Home": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/560-13913d3659eef34f.js",
+      "static/chunks/117-9846a3532062bb05.js",
+      "static/chunks/418-dcc5263dcaf68615.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Home-29765b50a9b2ac17.js"
+    ],
+    "/Product": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/26-00d1045a4a3a63b5.js",
+      "static/chunks/560-13913d3659eef34f.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Product-213ffd616f2b3614.js"
+    ],
+    "/Product_1": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/26-00d1045a4a3a63b5.js",
+      "static/chunks/560-13913d3659eef34f.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Product_1-4f50465c909d3a9a.js"
+    ],
+    "/Services": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Services-e29f09eb89941443.js"
+    ],
+    "/Services/Лазерная_гравировка": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Services/Лазерная_гравировка-8434d21a3b43e4ee.js"
+    ],
+    "/Services/Лазерная_резка": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Services/Лазерная_резка-b8d6e5a0bc7f1e9c.js"
+    ],
+    "/Services/Плотерная_резка": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Services/Плотерная_резка-44d98319433168e2.js"
+    ],
+    "/Services/Ремонт_станков_с_ЧПУ": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/14-8b0f738d12823b7c.js",
+      "static/chunks/777-ce31774d46cab04e.js",
+      "static/chunks/202-6f5aa60e3a2caf15.js",
+      "static/chunks/26-00d1045a4a3a63b5.js",
+      "static/chunks/775-81f72473fa1ec2f4.js",
+      "static/chunks/pages/Services/Ремонт_станков_с_ЧПУ-eb6471b32c90bb20.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/pages/_app-ba0d1cdf43a37972.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-5752944655d749a0.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-83803dd478f5b5bc.js",
+      "static/chunks/pages/_error-6679c1efb053c50e.js"
+    ]
+  },
+  "ampFirstPages": []
+}

@@ -14,8 +14,8 @@ const About = (props) => {
   return (
     <><Helmet>
       <meta charSet="utf-8" />
-      <title>{props.titles}</title>
-      <meta name="description" content="Nested component"></meta>
+      <title>{props.titles.О_нас}</title>
+      <meta name="description" content={props.titles.description}></meta>
     </Helmet><Container>
         <Row className="mt-5">
           <Col md="3" className="mt-2">

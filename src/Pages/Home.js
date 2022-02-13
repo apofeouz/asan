@@ -15,8 +15,8 @@ const Home = (props) => {
   return (
     <><Helmet>
       <meta charSet="utf-8" />
-      <title>{props.titles}</title>
-      <meta name="description" content="Nested component"></meta>
+      <title>{props.titles.Главная}</title>
+      <meta name="description" content={props.titles.description}></meta>
     </Helmet>
       <CarouselBox /><>
         <Container>

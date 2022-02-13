@@ -5,17 +5,16 @@ import { Card, ListGroup, Alert } from 'react-bootstrap';
 import ProductsBlock from '../Componets/ProductsBlock';
 import { List } from '@mui/material';
 import { Helmet } from "react-helmet";
-import data from '../Componets/data';
 
-const Products = () => {
+const Products = (props) => {
 
 
   return (
 
     <><Helmet>
       <meta charSet="utf-8" />
-      <title>{data.products[0].title}</title>
-      <meta name="description" content="Nested component"></meta>
+      <title>{props.products.title}</title>
+      <meta name="description" content={props.titles.description}></meta>
     </Helmet>
       <Container>
         <Row className="mt-5">
@@ -31,11 +30,11 @@ const Products = () => {
           </Col>
           <Col md="9">
             <h3 className="font-weight-bold mb-3 p-0 text-center">
-              <strong>{data.products[0].title}</strong>
+              <strong>{props.products.title}</strong>
             </h3>
             <MDBCard>
               <MDBCardBody>
-                {data.product.map((item) =>
+                {props.product.map((item) =>
                   <><hr className="my-3" /><MDBRow className='g-0'>
                     <MDBCol md='4'>
                       <MDBCardImage src={item.imgUrl} height="310px" width="290px" alt={item.name} fluid />

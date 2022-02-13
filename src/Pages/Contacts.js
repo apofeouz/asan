@@ -24,8 +24,8 @@ const Contacts = (props) => {
 
     <><Helmet>
       <meta charSet="utf-8" />
-      <title>{props.titles}</title>
-      <meta name="description" content="Nested component"></meta>
+      <title>{props.titles.Контакты}</title>
+      <meta name="description" content={props.titles.description}></meta>
     </Helmet><Container>
         <Row className="mt-5">
           <Col md="4" className="mt-2">

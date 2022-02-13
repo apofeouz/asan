@@ -11,7 +11,7 @@ const Services_Лазерная_гравировка = (props) => {
             <><Helmet>
             <meta charSet="utf-8" />
             <title>{props.titles}</title>
-            <meta name="description" content="Nested component"></meta>
+            <meta name="description" content={props.description}></meta>
           </Helmet>
            <Container>
                 <Row className="mt-5">

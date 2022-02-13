@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      
+	<url>
+		<loc><your_website_base_url>About</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Article</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Articles</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Contacts</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Gallery</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/GetOnlinePosts</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Home</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Product</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Product_1</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Services/Лазерная_гравировка</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Services/Лазерная_резка</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Services/Плотерная_резка</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Services/Ремонт_станков_с_ЧПУ</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+
+	<url>
+		<loc><your_website_base_url>/Services</loc>
+		<lastmod>2022-02-06</lastmod>
+	</url>
+</urlset>

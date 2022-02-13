@@ -11,8 +11,8 @@ const Articles = (props) => {
     return (
       <><Helmet>
       <meta charSet="utf-8" />
-      <title>{props.titles}</title>
-      <meta name="description" content="Nested component"></meta>
+      <title>{props.titles.Статьи}</title>
+      <meta name="description" content={props.titles.description}></meta>
     </Helmet>
     <Container>
         <Row className="mt-5">
@@ -21,7 +21,7 @@ const Articles = (props) => {
             <Card>
               <Card.Header className="text-center">Полезные статьи</Card.Header>
               <ListGroup variant="flush" striped bordered hover>
-                <ArticlesBlock />
+                <ArticlesBlock new = {props.news}/>
               </ListGroup>
             </Card>
           </Col>

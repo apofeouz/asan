@@ -55,20 +55,20 @@ export default class Header extends Component {
                         </Container>
                     </Navbar>
                     <Switch>
-                        <Route exact path="/" render= { () =><Home titles = {data.titles[0].Главная} news = {data.news}/> } />
+                        <Route exact path="/" render= { () =><Home titles = {data.titles[0]} news = {data.news}/> } />
                         {/* <Route exact path="/products/" render= { () =><Products titles = {data.titles[1].Продукция}/> } /> */}
-                        <Route exact path="/product/Информационные_стенды" component={Product} />
-                        <Route exact path="/product/Свадебная_атрибутика" component={Product_1} />
-                        <Route exact path="/services" render= { () =><Services titles = {data.titles[2].Dop[0].ФрезернаяРезка}/> } />
-                        <Route exact path="/services/лазерная_резка" render= { () =><Services_Лазерная_резка titles = {data.titles[2].Dop[1].ЛазернаяРезка}/> } />
-                        <Route exact path="/services/лазерная_гравировка" render= { () =><Services_Лазерная_гравировка titles = {data.titles[2].Dop[2].ЛазернаяГравировка}/> } />
-                        <Route exact path="/services/Плотерная_резка" render= { () =><Services_Плотерная_резка titles = {data.titles[2].Dop[3].ПлотернаяРезка}/> } />
-                        <Route exact path="/services/Ремонт_станков_с_ЧПУ" render= { () =><Services_Ремонт_станков_с_ЧПУ titles = {data.titles[2].Dop[4].РемонтСтанковСЧПУ}/> } />
-                        <Route exact path="/gallery/:title"  component={Gallery} />
-                        <Route exact path="/contacts" render= { () =><Contacts titles = {data.titles[4].Контакты}/> } />
-                        <Route exact path="/articles" render= { () =><Articles titles = {data.titles[5].Статьи}/> } />
+                        <Route exact path="/product/Информационные_стенды" render= { () =><Product titles = {data.titles[1]} product = {data.product} products = {data.products[0]} /> } />
+                        <Route exact path="/product/Свадебная_атрибутика" render= { () =><Product titles = {data.titles[1]} product = {data.product} products = {data.products[1]} /> }/>
+                        <Route exact path="/services" render= { () =><Services titles = {data.titles[2].Dop[0].ФрезернаяРезка} description = {data.titles[2].Dop[0].description}/> } />
+                        <Route exact path="/services/лазерная_резка" render= { () =><Services_Лазерная_резка titles = {data.titles[2].Dop[1].ЛазернаяРезка} description = {data.titles[2].Dop[1].description}/>  } />
+                        <Route exact path="/services/лазерная_гравировка" render= { () =><Services_Лазерная_гравировка titles = {data.titles[2].Dop[2].ЛазернаяГравировка} description = {data.titles[2].Dop[2].description}/> } />
+                        <Route exact path="/services/Плотерная_резка" render= { () =><Services_Плотерная_резка titles = {data.titles[2].Dop[3].ПлотернаяРезка} description = {data.titles[2].Dop[3].description}/>  } />
+                        <Route exact path="/services/Ремонт_станков_с_ЧПУ" render= { () =><Services_Ремонт_станков_с_ЧПУ titles = {data.titles[2].Dop[4].РемонтСтанковСЧПУ} description = {data.titles[2].Dop[4].description}/>  } />
+                        <Route exact path="/gallery/:title"  component={Gallery}  />
+                        <Route exact path="/contacts" render= { () =><Contacts titles = {data.titles[4]}/> } />
+                        <Route exact path="/articles" render= { () =><Articles titles = {data.titles[5]} />} />
                         <Route exact path="/article/:title" component={Article} />
-                        <Route exact path="/about" render= { () =><About titles = {data.titles[6].О_нас} partners ={data.partners} maps = {data.maps}/> } />
+                        <Route exact path="/about" render= { () =><About titles = {data.titles[6]} partners ={data.partners} maps = {data.maps}/> } />
                     </Switch>
                 </Router>
             </>

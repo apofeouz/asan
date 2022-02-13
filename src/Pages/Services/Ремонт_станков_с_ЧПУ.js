@@ -11,7 +11,7 @@ const Services_Ремонт_станков_с_ЧПУ = (props)=> {
             <><Helmet>
             <meta charSet="utf-8" />
             <title>{props.titles}</title>
-            <meta name="description" content="Nested component"></meta>
+            <meta name="description" content={props.description}></meta>
           </Helmet>
           <Container>
                 <Row className="mt-5">
