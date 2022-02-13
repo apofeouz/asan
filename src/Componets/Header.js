@@ -18,6 +18,7 @@ import Contacts from '../Pages/Contacts';
 import Articles from '../Pages/Articles';
 import Article from '../Pages/Article';
 import About from '../Pages/About';
+import NotFoundPage from '../Pages/NotFoundPage'
 
 import data from './data';
 
@@ -69,6 +70,7 @@ export default class Header extends Component {
                         <Route exact path="/articles" render= { () =><Articles titles = {data.titles[5]} />} />
                         <Route exact path="/article/:title" component={Article} />
                         <Route exact path="/about" render= { () =><About titles = {data.titles[6]} partners ={data.partners} maps = {data.maps}/> } />
+                        <Route path="*"> <NotFoundPage /> </Route>
                     </Switch>
                 </Router>
             </>
